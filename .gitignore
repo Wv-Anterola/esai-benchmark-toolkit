@@ -1,12 +1,5 @@
-# Never commit the workbook export or its generated outputs
-data/*.xlsx
-data/*.xls
-data/*.csv
+*.xlsx
+*.xls
 outputs/
-
-# Python
 __pycache__/
 *.pyc
-.venv/
-venv/
-.DS_Store
