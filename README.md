@@ -1,4 +1,4 @@
-# ESAI mapping scripts
+# ESAI benchmark toolkit
 
 Two read-only scripts for sanity-checking the mapping workbook. They run on a downloaded .xlsx
 export, not the live sheet, and hash the file before and after so you can confirm they don't change
