@@ -12,13 +12,13 @@ under the matching tab.
 
 **What to fill (per the coding guide):**
 - **benchmarks:** `benchmark_id` (`BX.YY.ZZ`), `quick ref` (FirstAuthorSurname+Year, e.g. `Jin2026`),
-  `title`, `task`, `metric`, `communicated_metric`, `version`=1, `notes`, `evidence_type`.
-  Leave `modality` / `interaction horizon` / `aggregation scale` **blank** (Tae's job for now).
+ `title`, `task`, `metric`, `communicated_metric`, `version`=1, `notes`, `evidence_type`.
+ Leave `modality` / `interaction horizon` / `aggregation scale` **blank** (Tae's job for now).
 - **bench_measures_harm:** fill `benchmark_id`, `harm_id`, `strength`, `basis`, `confidence`,
-  `annotator`, `version`=1, `notes`. Leave `edge_id`, `ev_id`, `Bench: Title`, `Harm: Category`,
-  `Harm: Subcategory`, `Harm: Domain`, `Harm: Subdomain` **blank** — they auto-populate from
-  `benchmark_id` / `harm_id`.
+ `annotator`, `version`=1, `notes`. Leave `edge_id`, `ev_id`, `Bench: Title`, `Harm: Category`,
+ `Harm: Subcategory`, `Harm: Domain`, `Harm: Subdomain` **blank** , they auto-populate from
+ `benchmark_id` / `harm_id`.
 - **provision_addresses_harm:** only if clearly supported by the coding guide (it is a layered,
-  scenario-based argument, not one row per provision).
+ scenario-based argument, not one row per provision).
 
 See `guides/coding-conventions-cheatsheet.md` and `guides/adding-rows-and-qc-checklist.md`.

@@ -130,7 +130,7 @@ def why_gap(row, uncovered_reason: dict) -> str:
     if any(k in label for k in ("inequality", "destabilis", "instability", "democracy", "rights")):
         return "broad societal/political outcome"
     if row["tier"] == "NONE":
-        return "no edge yet — candidate for collection"
+        return "no edge yet, candidate for collection"
     return "proxy-measurable only (no direct operationalisation)"
 
 
@@ -255,10 +255,10 @@ th,td{{border-bottom:1px solid #eee;padding:5px 7px;text-align:left}}
 th{{background:#f3f3f3}} .note{{color:#666;font-size:12px}}
 .legend span{{display:inline-block;width:12px;height:12px;margin:0 4px -1px 10px;border-radius:2px}}
 </style></head><body>
-<h1>ESAI — Systematic Gap Analysis</h1>
-<p class="note">Addresses Yann's work package <b>"Systematic gap analysis"</b> (17–24 Jun 2026).
-<b>Local workbook finding</b> from <code>{html.escape(wb_name)}</code> — not the live sheet.
-Coverage tier = best strength of any benchmark&rarr;harm edge.</p>
+<h1>ESAI Systematic Gap Analysis</h1>
+<p class="note">Addresses Yann's work package <b>"Systematic gap analysis"</b> (17-24 Jun 2026).
+<b>Local workbook finding</b> from <code>{html.escape(wb_name)}</code>, not the live sheet.
+Coverage tier = best strength of any benchmark-to-harm edge.</p>
 
 <div class="cards">{cards}</div>
 <p><span class="big">{no_direct_total}</span> of {total} harms
