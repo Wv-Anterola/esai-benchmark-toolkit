@@ -1,8 +1,8 @@
 # ESAI benchmark toolkit
 
-Two read-only scripts for sanity-checking the mapping workbook. They run on a downloaded .xlsx
-export, not the live sheet, and hash the file before and after so you can confirm they don't change
-it. The numbers reflect whichever export you give them.
+Read-only scripts for the mapping work. The audit scripts run on a downloaded .xlsx export, not the
+live sheet, and hash the file before and after so you can confirm they don't change it. The numbers
+reflect whichever export you give them.
 
 Needs Python with pandas and openpyxl:
 
@@ -24,3 +24,10 @@ only weak proxies. It writes the per-harm tables plus an HTML summary at
 `outputs/gap_analysis/index.html`.
 
 Both write to `./outputs/`. That folder and the .xlsx are gitignored.
+
+## OpenReview benchmark extraction moved
+
+The OpenReview collection pipeline that used to live here now sits under its work-package
+folder: `../work-packages/systematic-benchmark-collection/` (collection + paper QC). See that
+folder's README. The benchmark-to-risk "Mapping validation" work package is in
+`../work-packages/mapping-validation/`.
